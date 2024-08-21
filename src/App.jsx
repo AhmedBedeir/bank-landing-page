@@ -1,8 +1,18 @@
+import styles from "./style";
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>Navbar</div>
+    </div>
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
-
-export default App
+    <div className={`${styles.flexStart} bg-primary`}>
+      <div className={`${styles.boxWidth}`}>Hero</div>
+    </div>
+    <div className={`${styles.flexStart} bg-primary`}>
+      <div className={`${styles.boxWidth}`}>
+        
+      </div>
+    </div>
+  </div>
+);
+export default App;
