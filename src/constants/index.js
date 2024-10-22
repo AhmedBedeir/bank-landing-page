@@ -65,7 +65,7 @@ export const feedback = [
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Herman Jensen",
     title: "Founder & Leader",
-    img: people01,
+    img: people03,
   },
   {
     id: "feedback-2",
@@ -188,7 +188,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/ahmed-bedeir",
   },
 ];
 
